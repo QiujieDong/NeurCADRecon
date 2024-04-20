@@ -8,7 +8,7 @@
 
 ## News
 - :fire: This paper was accepted by [ACM TOG (SIGGRAPH 2024)]
-- :star: Gave a talk at [CVM2023](http://iccvm.org/2023/index.htm) on Laplacian2Mesh.
+- :star: July 29, 2024 (GMT -7): Gave a talk at [SIGGRAPH 2024](https://s2024.siggraph.org/) on NeurCADRecon.
 
 ## Requirements
 
