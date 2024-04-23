@@ -27,8 +27,6 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 year={2024},
 issue_date = {July 2024},
-volume = {43},
-number = {4},
 keywords = {CAD model, unoriented point cloud, surface reconstruction, signed distance function, Gaussian curvature}
 }
 ```
