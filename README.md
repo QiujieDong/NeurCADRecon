@@ -1,13 +1,13 @@
 # **NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature**
 
-### [Project](https://qiujiedong.github.io/publications/NeurCADRecon/) | [Paper](https://arxiv.org/pdf/2202.00307.pdf)
+### [Project](https://qiujiedong.github.io/publications/NeurCADRecon/) | [Paper](https://arxiv.org/pdf/2404.13420.pdf)
 
 **This repository is the official PyTorch implementation of our paper,  *NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature*.**
 
 <img src='./assets/teaser.png'>
 
 ## News
-- :fire: This paper was accepted by [ACM TOG (SIGGRAPH 2024)]
+- :fire: This paper was accepted by [ACM TOG (SIGGRAPH 2024)](https://arxiv.org/abs/2404.13420)
 - :star: July 29, 2024 (GMT -7): Gave a talk at [SIGGRAPH 2024](https://s2024.siggraph.org/) on NeurCADRecon.
 
 ## Requirements
@@ -21,12 +21,12 @@ If you find our work useful for your research, please consider citing the follow
 ```bibtex
 @article{Dong2024NeurCADRecon,
 author={Dong, Qiujie and Xu, Rui and Wang, Pengfei and Chen, Shuangmin and Xin, Shiqing and Jia, Xiaohong and Wang, Wenping and Tu, Changhe},
-journal={ACM Transactions on Graphics},
 title={NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature},
-year={2024},
-issue_date = {July 2024},
+journal={ACM Transactions on Graphics},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
+year={2024},
+issue_date = {July 2024},
 volume = {43},
 number = {4},
 keywords = {CAD model, unoriented point cloud, surface reconstruction, signed distance function, Gaussian curvature}
