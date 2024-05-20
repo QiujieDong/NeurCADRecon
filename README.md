@@ -26,7 +26,10 @@ journal={ACM Transactions on Graphics},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 year={2024},
-issue_date = {July 2024},
+month={July},
+volume = {43},
+number={4},
+doi={10.1145/3658171},
 keywords = {CAD model, unoriented point cloud, surface reconstruction, signed distance function, Gaussian curvature}
 }
 ```
