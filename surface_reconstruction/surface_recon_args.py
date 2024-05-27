@@ -6,9 +6,9 @@ def add_args(parser):
     parser.add_argument('--model_name', type=str, default='model', help='trained model name')
     parser.add_argument('--seed', type=int, default=3627473, help='random seed')
     parser.add_argument('--data_path', type=str,
-                            default='/home/qiujie/NeurCADRecon_public/data/fandisk/input/fandisk.ply',
+                            default='../data/fandisk/input/fandisk.ply',
                         help='path to input dir')
-    parser.add_argument('--mesh_dir', type=str, default='//home/qiujie/NeurCADRecon_public/data/fandisk/gt', help='path to the gt folder')
+    parser.add_argument('--mesh_dir', type=str, default='../data/fandisk/gt', help='path to the gt folder')
     parser.add_argument('--n_samples', type=int, default=10000,
                         help='numbers of epochs')
     parser.add_argument('--n_points', type=int, default=20000, help='number of points in each point cloud')
