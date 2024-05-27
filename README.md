@@ -4,6 +4,8 @@
 
 **This repository is the official PyTorch implementation of our paper,  *NeurCADRecon: Neural Representation for Reconstructing CAD Surfaces by Enforcing Zero Gaussian Curvature*.**
 
+**This code is based on the SIREN, we also provide the implementation based on the IGR: [NeurCADRecon-IGR](https://github.com/QiujieDong/NeurCADRecon_IGR)**
+
 <img src='./assets/teaser.png'>
 
 ## News
@@ -12,7 +14,37 @@
 
 ## Requirements
 
-- I appreciate your interest in our work. Since I have other work to do recently, the code will be made public shortly.
+- python 3.7
+- CUDA 12.2
+- pytorch 1.13.0
+
+## Installation
+
+```
+git clone https://github.com/QiujieDong/NeurCADRecon.git
+cd NeurCADRecon
+```
+
+## Preprocessing
+Sampling and normalizing to [-0.5, 0.5]
+
+```
+cd pre_processing
+python pre_data.py
+```
+
+- gt_path: The ground truth mesh of the CAD model.
+- input_path: The input point cloud that need to be reconstructed.
+
+
+## Overfitting
+
+```angular2html
+cd surface_reconstruction
+python train_surface_reconstruction.py
+```
+All parameters are set in the ```surface_recon_args.py```.
+
 
 ## Cite
 

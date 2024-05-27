@@ -1,0 +1,17 @@
+**/log/
+**/vis/
+__pycache__/
+.idea/
+*.pyc
+*.swp
+*.job.*/
+*/temp-plot.html
+results/
+**/results/*
+trained_models/
+**/*_ims_*/*
+**/log*/
+*.zip
+*.tar.gz
+*.tar.xz
+
